@@ -1,0 +1,140 @@
+body {
+    font-family: 'Georgia', Times, serif;
+    font-size: 13px;
+    color:#333;
+    height: 650px; 
+    width: 960px;
+    background-color: #ededed;
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#header {
+    float: left;
+    height: 75px;
+    width: 300px;
+    background: #4aaaa5;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    border: 1px solid #cccccc;
+    margin-left: 20%;
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 1000px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+#navbar {}
+
+a {
+    color: #4AAAA5;
+}
+a:hover {
+    color: black;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#about {
+    margin-right: 500px;
+}
+
+#connect {
+    background-color: white;
+    padding-bottom: 10px;
+    width: 150px;
+    float: left;
+    margin-left: 23px;
+    margin-right: 23px;
+    color: #4aaaa5;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'Georgia', Times, serif;
+}
+
+/*image styling*/
+
+#github {
+    height: 35px;
+    width: 35px;
+    float: right;
+    border: 1px solid white;
+}
+#linkedin {
+    height: 35px;
+    width: 35px;
+    float: right;
+    border: 1px solid white;
+}
+#stack {
+    height: 35px;
+    width: 35px;
+    float: right;
+    border: 1px solid white;
+}
+#exit {
+    height: 35px;
+    width: 35px;
+    float: right;
+    border: 1px solid white;
+}
+
+/*end*/
+#title {
+    font-size: 130%;
+    margin-left: 0;
+    font-weight: bold;
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+}
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 700px;
+    color: #777777;
+    font-family: 'Arial', Helvetica, san-serif;
+    border: 1px solid #dddddd;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#border {
+    border-top: 3px solid #dddddd;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#hammock {
+    height: 194px;
+    width: 180px;
+    float: left;
+    border: 1px solid #cccccc;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+
+#footer {
+    height: 60px;
+    width: 1000px;
+    background: #666666;
+    clear: both;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    margin-top: 20px;
+}
